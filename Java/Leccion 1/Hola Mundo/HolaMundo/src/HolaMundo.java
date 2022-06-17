@@ -179,13 +179,180 @@ public class HolaMundo {
 //        System.out.println("Ingrese una frase");
 //        fraseChar = entrada.nextLine().charAt(0);
 //        System.out.println("fraseChar = " + fraseChar);
-
-
-        
-        
-        
-        
-        
+//          
+//          OPERADORES
+//
+//          int num1 = 5, num2 = 4;
+//          int solucion = num1 + num2;
+//          System.out.println("solucion de la suma= " + solucion);
+//          
+//          solucion = num1 - num2;
+//          System.out.println("solucion de la resta = " + solucion);
+//          
+//          solucion = num1 * num2;
+//          System.out.println("solucion del producto = " + solucion);
+//        
+//          solucion = num1 /num2;
+//          System.out.println("solucion de la division = " + solucion);
+//        
+//          var solucion2 = 3.4 / num2;
+//          System.out.println("solucion2 = " + solucion2);
+//        
+//          solucion = num1 % num2;
+//          System.out.println("solucion del modulo = " + solucion);
+//
+//          if(solucion % 2 ==0)
+//              System.out.println("Es un numero par");
+//          else
+//              System.out.println("Es un numero impar");
+//          
+//          int varNum1 = 1, varNum2 = 4;
+//          var varNum3 = varNum1 + 6 - varNum2;
+//          System.out.println("varNum3 = " + varNum3);
+//          
+//          varNum1 += 1; // varNum1 = varNum1 + 1;
+//          System.out.println("varNum1 = " + varNum1);
+//          
+//          varNum1 -= 1;
+//          System.out.println("varNum1 = " + varNum1);
+//        
+//          varNum1 *= 10;
+//          System.out.println("varNum1 = " + varNum1);
+//                
+//          varNum1 /= 2;
+//          System.out.println("varNum1 = " + varNum1);
+//          
+//          varNum1 &= 1;
+//          System.out.println("varNum1 = " + varNum1);
+//
+//          OPERADORES UNARIOS
+//  
+//            var varA = 7;
+//            var varB = -varA;
+//            System.out.println("varA = " + varA);
+//            System.out.println("varB = " + varB);
+//            
+//          OPERADOR DE NEGACION
+//            
+//            var varC = true;
+//            var varD = ! varC;
+//            System.out.println("varC = " + varC);
+//            System.out.println("varD = " + varD);
+//
+//          OPERADOR DE PRE-INCREMENTO
+//            
+//            var varE = 9;
+//            var varF = ++varE;
+//            System.out.println("varE = " + varE);
+//            System.out.println("varF = " + varF);
+////
+////          OPERADOR DE POST-INCREMENTO
+//
+//            var varG = 3;
+//            var varH = varG++;
+//            System.out.println("varG = " + varG);
+//            System.out.println("varH = " + varH);
+//            
+////          OPERADOR DE PRE-DECREMENTO
+//
+//            var varI = 4;
+//            var varJ = --varI;
+//            System.out.println("varI = " + varI);
+//            System.out.println("varJ = " + varJ);
+//
+////          OPERADOR DE POST-DECREMENTO            
+//            var varK = 8;
+//            var varL = varK--;
+//            System.out.println("varK = " + varK);
+//            System.out.println("varL = " + varL);
+//
+//            OPERADORES DE IGUALDAD Y RELACIONALES
+//
+//              var aNum = 4;
+//              var bNum = 5;
+//              var cNum = aNum == bNum;
+//              System.out.println("cNum = " + cNum);
+//              
+//              var dNum = aNum != bNum;
+//              System.out.println("dNum = " + dNum);
+//              
+//              var cadenaA = "Hello";
+//              var cadenaB = "bye bye";
+//              var cVar = cadenaA == cadenaB;
+//              System.out.println("cVar = " + cVar);
+//              
+//              var fVar = cadenaA.equals(cadenaB);
+//              System.out.println("fVar = " + fVar);
+//              
+//              var gVar = aNum > bNum; // <, <=, >=, !=, == ...
+//              System.out.println("gVar = " + gVar);
+//              
+//              if(aNum % 2 == 0)
+//                  System.out.println("El numero es par.");
+//              else
+//                  System.out.println("El numero es impar,");
+//              
+//              var edad = 17;
+//              var adulto = 18;
+//              
+//              if(edad >= adulto){
+//                  System.out.println("Es mayor de edad.");
+//              }
+//              else{
+//                  System.out.println("Es menor de edad.");
+//              }
+//
+//              OPERADOR CONDICIONAL AND
+//
+//                var valorA = 7;
+//                var valorMin = 0;
+//                var valorMax = 10;
+//                var respuesta = valorA >= valorMin && valorA <= valorMax;
+//                System.out.println("respuesta = " + respuesta);
+//                
+//                if(respuesta){
+//                    System.out.println("Esta dentro del rango establecido.");
+//                }
+//                else{
+//                    System.out.println("Esta fuera del rango establecido.");
+//                }
+//                
+//                var vacaciones = false;
+//                var diaLibre = true;
+//                
+//                if(vacaciones || diaLibre){
+//                    System.out.println("Papá puede asistir al juego de su hijo.");
+//                }
+//                else{
+//                    System.out.println("Papá tiene que trabajar");
+//                }
+//
+//                OPERADOR TERNARIO
+//
+//                var resultadoT = (5 > 4) ? "Veradero" : "Falso";
+//                System.out.println("resultadoT = " + resultadoT);
+//                
+//                var numeroT =  7;
+//                var resultado = (numeroT % 2 != 0) ? "Es impar" : "Es par";
+//                System.out.println("resultado = " + resultado);
+//             
+//              PRIORIDAD DE OPERADORES
+                var x = 5;
+                var y = 10;
+                var z = ++x + y--;
+                System.out.println("x = " + x);
+                System.out.println("y = " + y);
+                System.out.println("z = " + z);
+                    
+                var solucionAritmetica = 4 + 5 * 6 / 3; // 4 + ((5 *6) / 3)
+                System.out.println("solucionAritmetica = " + solucionAritmetica);
                 
+                solucionAritmetica = (4 + 5) * 6 / 3;
+                System.out.println("solucionAritmetica = " + solucionAritmetica);
+              
+              
+              
+              
+    
     }
 }

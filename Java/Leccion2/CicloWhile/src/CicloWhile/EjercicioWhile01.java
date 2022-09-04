@@ -2,7 +2,7 @@ package CicloWhile;
 
 public class EjercicioWhile01 {
 
-    public static void main(String[] args){
+    public static void main(String args[]){
 
         var counter = 0;
 
@@ -21,9 +21,26 @@ public class EjercicioWhile01 {
 
         }while (counter <= 7);
 
-        for (counter = 0; counter < 8; counter++){
+        for (counter = 0; counter < 7; counter++){
+
+            if(counter % 2 == 0){
+
+                System.out.println("Counting = " + counter);
+                break;
+            }
+
+        }
+
+        inicio: //Label Go To-->
+        for (counter = 0; counter < 7; counter++){
+
+            if(counter % 2 != 0){
+
+                continue inicio; //Siguiente Iteracion
+            }
 
             System.out.println("Counting = " + counter);
+
         }
 
 

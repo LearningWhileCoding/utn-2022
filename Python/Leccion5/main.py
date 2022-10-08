@@ -70,3 +70,35 @@ def listNames(*names): # Normalmente se utiliza: *args
         print(name)
 listNames('Rob', 'Aria', 'Cersei', 'Ned')
 listNames('Tyrion', 'Jamie', 'Robert', 'Jorah')
+
+def listTerms(**terms): # Lo mas utilizado es **kwargs
+    for key, value in terms.items(): # kwargs significa: key word argument
+        print(f'{key} : {value}')
+
+listTerms() # No recibe nada, nada cambia.
+listTerms(IDE='Integrated Development Enviroment', PK='Primary Key')
+listTerms(Name='Julia Roberts')
+
+def displayNames(names):
+    for name in names:
+        print(name)
+names2 = ['Ragnar', 'Loki', 'Rollo']
+
+displayNames(names2)
+
+displayNames('Ladgerda')
+
+# showNames(10, 11) # Objeto NO iterable
+displayNames((10, 11)) # Conversion a tupla, en un solo elemento lleva coma al final!
+displayNames([22, 55]) # Conversion a lista
+
+
+# Funciones Recursivas
+def fact(number):
+    if number == 1: # Caso Base
+        return 1
+    else:
+        return number * fact(number - 1) # Caso Recursivo
+factorialNumber = int(input('Enter a number: '))
+factorialResult = fact(factorialNumber) 
+print(f'The factorial of number {factorialNumber} is: {factorialResult}')

@@ -6,6 +6,20 @@ public class Aritmetica {
     int a;
     int b;
 
+
+    //Sobrecarga de constructores - Overload
+    public Aritmetica() { //Constructor 1
+
+        System.out.println("Se està ejecutando el constructor numero 1");
+    }
+
+    public  Aritmetica(int a, int b) { //Constructor 2
+
+        this.a = a;
+        this.b = b;
+        System.out.println("Se está ejecutando el constructor numero 2");
+    }
+
     //Metodo
     public void sumarNumeros(){
 

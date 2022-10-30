@@ -13,17 +13,16 @@ direccion: String
 +setEdad(int): void
 +getDireccion(): Str
 +setDireccion(String): void
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>470</y><w>210</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>120</x><y>470</y><w>210</w><h>120</h></coordinates><panel_attributes>&lt;&lt;Empleado&gt;&gt;
 --
 -idEmpleado: int
 -sueldo: double
 --
 +getIdEmpleado(): int
-+setIdEmpleado(int): void
 +getSueldo(): double
 +setSueldo(double) 
 
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>470</y><w>210</w><h>130</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>710</x><y>470</y><w>210</w><h>170</h></coordinates><panel_attributes>&lt;&lt;Cliente&gt;&gt;
 --
 -idCliente: int
 -fechaRegistro: Date
@@ -32,7 +31,6 @@ direccion: String
 +getIdCliente(): int
 +getfFechaRegistro(): Date
 +getVip(): boolean
-+setIdCliente(int): void
 +setFechaRegistro(Date): void
 +setVip(boolean): void
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>230</x><y>380</y><w>350</w><h>40</h></coordinates><panel_attributes>lt=()-

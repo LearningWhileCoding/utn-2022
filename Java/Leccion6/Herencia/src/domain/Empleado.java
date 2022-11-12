@@ -2,9 +2,14 @@ package domain;
 
 public class Empleado extends Persona{
 
-    public Empleado(String nombre, double sueldo) {
-        super(nombre);
+    public Empleado(){ //Constructor 1
         this.idEmpleado = ++Empleado.contadorEmpleados;
+    }
+
+    public Empleado(String nombre, double sueldo) { //Constructor 2
+        //super(nombre);
+        this(); // Llamada al constructor vacio! (Llamada a constructor interno)
+        this.nombre = nombre;
         this.sueldo = sueldo;
     }
 
